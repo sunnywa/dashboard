@@ -105,26 +105,6 @@
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item @click="toBook">
-          <v-list-item-avatar height="25" min-width="25" width="25">
-            <v-icon color="primary">mdi-book-open-variant</v-icon>
-          </v-list-item-avatar>
-          <v-list-item-content>
-            <v-list-item-title class="text-body-2 font-weight-medium kubegems__text user__list__title">
-              {{ i18n.t('header.user.manual') }}
-            </v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-        <v-list-item @click="showAbout">
-          <v-list-item-avatar height="25" min-width="25" width="25">
-            <v-icon color="primary">mdi-alpha-v-circle</v-icon>
-          </v-list-item-avatar>
-          <v-list-item-content>
-            <v-list-item-title class="text-body-2 font-weight-medium kubegems__text user__list__title">
-              {{ i18n.t('header.user.about') }}
-            </v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
       </v-list>
       <v-divider />
       <v-card-actions>
