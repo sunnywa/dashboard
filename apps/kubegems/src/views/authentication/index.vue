@@ -55,7 +55,7 @@
           :style="{ opacity: `${SelfOut ? 1 : 0}` }"
         >
           <strong>
-            更便捷的云原生管理平台-联通云容器
+            更便捷的云原生多集群管理平台-云原生2.0+
             <div class="login__second__desc__en">Let cloudnative management more easily</div>
           </strong>
         </div>
