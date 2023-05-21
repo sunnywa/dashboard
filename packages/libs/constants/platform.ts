@@ -59,7 +59,7 @@ export const METATYPE_CN: { [key: string]: { [key: string]: string } } = {
 };
 
 // 定制化字段
-export const PLATFORM = 'KubeGems';
-export const MANUAL = 'https://www.kubegems.io/docs/concepts/what-is-kubegems';
-export const LOGO_BLUE = '/logo-blue.svg';
-export const LOGO_WHITE = '/logo-white.svg';
+export const PLATFORM = 'Loading';
+export const MANUAL = '';
+export const LOGO_BLUE = '/logo-blue.svg.xxx';
+export const LOGO_WHITE = '/logo-white.svg.xxx';
