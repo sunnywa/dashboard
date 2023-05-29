@@ -39,7 +39,7 @@
 
     <v-flex v-for="(plugins, key) in pluginGroup" :key="key">
       <v-flex class="kubegems__text text-subtitle-1 mt-3 font-weight-medium">
-        {{ key.replace('kubegems','cloudnative') }}
+        {{ key.replace('kubegems','云原生2.0') }}
       </v-flex>
       <v-row class="mt-3">
         <v-col v-for="(plugin, index) in plugins" :key="index" class="pt-0" cols="3">
@@ -52,7 +52,7 @@
                 <v-list-item-content>
                   <v-list-item-title class="text-h6 mb-1 plugins__title">
                     <a @click="pluginPodList(plugin)">
-                      {{ plugin.name.replace('','云原生2.0') }}
+                      {{ plugin.name.replace('kubegems','cloudnative') }}
                     </a>
                   </v-list-item-title>
                   <v-list-item-subtitle class="text-body-2 text--lighten-4">
