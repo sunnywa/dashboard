@@ -20,9 +20,9 @@ import '@/scss/vuetify/overrides.scss';
 Vue.use(Vuetify);
 
 const theme: { [key: string]: string } = {
-  primary: '#1e88e5',
-  info: '#1e88e5',
-  success: '#00BCD4',
+  primary: '#01305F',
+  info: '#7B88A9',
+  success: '#64bb3a',
   accent: '#fc4b6c',
   default: '#563dea',
 };
