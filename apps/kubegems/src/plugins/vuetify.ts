@@ -22,7 +22,7 @@ Vue.use(Vuetify);
 const theme: { [key: string]: string } = {
   primary: '#01305F',
   info: '#7B88A9',
-  success: '#64bb3a',
+  success: '#077785',
   accent: '#fc4b6c',
   default: '#563dea',
 };
