@@ -313,11 +313,11 @@
   }
   .texture-left {
     color: white;
-    background-color: rgb(2, 196, 221);
+    background-color: rgb(1, 48, 95);
   }
   .texture-right {
     color: white;
-    background-color: rgb(0, 187, 212);
+    background-color: rgb(1, 48, 95);
   }
 
   .cluster-title {
@@ -330,5 +330,10 @@
 
   .auto-width {
     min-width: auto !important;
+  }
+  
+  .success--text {
+    color: #02c4dd !important;
+    caret-color: #02c4dd !important;
   }
 </style>
