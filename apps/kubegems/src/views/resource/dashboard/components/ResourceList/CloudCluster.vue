@@ -266,7 +266,7 @@
         this.$refs.scaleResource.open();
       },
       getColor(percentage) {
-        return percentage ? (percentage < 60 ? 'primary' : percentage < 80 ? 'warning' : 'red darken-1') : 'primary';
+        return percentage ? (percentage < 60 ? 'primary' : percentage < 80 ? 'warning' : 'accent darken-1') : 'primary';
       },
     },
   };
