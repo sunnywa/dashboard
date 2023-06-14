@@ -23,7 +23,9 @@
       v-show="!vertical"
       :class="{ skeleton__title: true, skeleton__title__ani: !SelfOut, skeleton__title__small: SelfOut || vertical }"
     >
+<!--
       <img :class="{ skeleton__img: true, skeleton__img__ani: !SelfOut, skeleton__img__small: SelfOut || vertical }" />
+-->
       <div
         :class="{ skeleton__loading: true, skeleton__loading__ani: !SelfOut }"
         :style="{ opacity: SelfOut ? '0 !important' : '' }"
