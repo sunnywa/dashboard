@@ -280,6 +280,7 @@
           return !item.admin || (item.admin === 'all' && meta.value.rootName !== 'microservice');
         });
     }
+    debugger
     return sidebar;
   };
 
