@@ -311,6 +311,9 @@
         });
       },
       getFilter(item) {
+        if((typeof item.spec.filters) == 'undefined'){
+          return undefined;
+        }
         return item.spec.filters.length > 1
           ? item.spec.filters.reduce((f1, f2) => {
               return Array.isArray(f1) ? f1.concat(Object.keys(f2)) : Object.keys(f1).concat(Object.keys(f2));
