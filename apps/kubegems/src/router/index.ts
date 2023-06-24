@@ -44,28 +44,28 @@ const originalRoutes = global
       children: observe,
     },
   ]) // 租户可观测性
-  .concat([
-    {
-      path: '/microservice',
-      name: 'entry-microservice',
-      component: () => import('@/layouts/Layout.vue'),
-      redirect: {
-        name: 'virtualspace-list',
-      },
-      children: entryMicroService,
-    },
-  ]) // 微服务入口
-  .concat([
-    {
-      path: '/microservice',
-      name: 'microservice',
-      component: () => import('@/layouts/Layout.vue'),
-      redirect: {
-        name: 'virtualspace-list',
-      },
-      children: microService,
-    },
-  ]) // 微服务工作台
+  // .concat([
+  //   {
+  //     path: '/microservice',
+  //     name: 'entry-microservice',
+  //     component: () => import('@/layouts/Layout.vue'),
+  //     redirect: {
+  //       name: 'virtualspace-list',
+  //     },
+  //     children: entryMicroService,
+  //   },
+  // ]) // 微服务入口
+  // .concat([
+  //   {
+  //     path: '/microservice',
+  //     name: 'microservice',
+  //     component: () => import('@/layouts/Layout.vue'),
+  //     redirect: {
+  //       name: 'virtualspace-list',
+  //     },
+  //     children: microService,
+  //   },
+  // ]) // 微服务工作台
   .concat(tool) // 租户工具箱
   .concat(appStore) // 应用商店
   .concat(userCenter) // 用户中心
