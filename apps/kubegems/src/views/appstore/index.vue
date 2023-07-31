@@ -182,7 +182,7 @@
         },
         repos: [],
         chartsNum: 0,
-        selectRepo: 'kubegems',
+        selectRepo: '內置repo',
         repoMenu: false,
         offsetTop: 0,
       };
@@ -197,7 +197,7 @@
       },
     },
     mounted() {
-      this.selectRepo = this.$route.query.reponame ? this.$route.query.reponame : 'kubegems';
+      this.selectRepo = this.$route.query.reponame ? this.$route.query.reponame : '內置repo';
       this.appStoreList();
       this.repositoryList();
     },
