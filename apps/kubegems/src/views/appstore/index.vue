@@ -203,7 +203,7 @@
     },
     methods: {
       async appStoreList() {
-        if (this.selectRepo === 'kubegems') {
+        if (this.selectRepo === '内置repo') {
           this.params.reponame = '';
         } else {
           this.params.reponame = this.selectRepo;
@@ -228,7 +228,7 @@
         this.repos = data.map((repo) => {
           return repo.ChartRepoName;
         });
-        this.repos.unshift('kubegems');
+        this.repos.unshift('内置repo');
       },
       generatTypes() {
         this.types = [];
