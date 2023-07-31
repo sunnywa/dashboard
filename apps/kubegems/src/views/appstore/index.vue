@@ -68,7 +68,7 @@
                             <div class="float-left mr-2">
                               <BaseLogo class="mr-2" :icon-name="repo" :ml="0" :mt="0" :width="16" />
                             </div>
-                            <div class="float-left"> {{ repo }}</div>
+                            <div class="float-left"> {{  repo  == 'kubegems' ? '内置仓库' : repo }}</div>
                             <div class="kubegems__clear-float" />
                           </div>
                         </v-list-item-content>
