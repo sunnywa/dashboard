@@ -109,7 +109,7 @@
     computed: {
       ...mapState(['Scale']),
       reponame() {
-        return this.selectRepo === 'kubegems' ? '' : this.selectRepo;
+        return this.selectRepo === '內置repo' ? '' : this.selectRepo;
       },
       tabItems() {
         return [
