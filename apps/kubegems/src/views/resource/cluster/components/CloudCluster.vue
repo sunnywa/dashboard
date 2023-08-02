@@ -161,7 +161,11 @@
     },
     methods: {
       async clusterList(del = false) {
-        const data = await getClusterList({ noprocessing: true });
+        const data = await getClusterList({
+          page: 1,
+          size: 1000,
+          noprocessing: true
+        });
         this.items = convertResponse2List(data);
         this.hasControllerCluster = this.items?.some((c) => {
           return c.Primary;
