@@ -104,11 +104,11 @@
           KubeConfig: '',
           Primary: false,
           Vendor: 'selfhosted',
-          ImageRepo: 'registry.cn-beijing.aliyuncs.com/kubegems',
+          ImageRepo: 'dockerhub.jaguar.local/kubegems',
           DefaultStorageClass: 'local-path',
           extend: {
             storageClasses: [],
-            imageRepos: ['registry.cn-beijing.aliyuncs.com/kubegems', 'docker.io/kubegems'],
+            imageRepos: ['dockerhub.jaguar.local/kubegems'],
             validate: 'progressing',
             clusterName: '',
             existInstaller: false,
