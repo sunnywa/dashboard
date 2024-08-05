@@ -21,7 +21,7 @@ env:
   ALI_REGISTRY: ${{ secrets.ALI_RSY_HOST }}
   DOCKER_HUB_REGISTRY: ${{ secrets.DOCKER_RSY }}
   # github.repository as <account>/<repo>
-  IMAGE_NAME: kubegem/dashboard
+  IMAGE_NAME: wangqi45857189/dashboard
 
 jobs:
   build:
