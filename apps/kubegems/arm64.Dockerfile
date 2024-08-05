@@ -1,4 +1,4 @@
-FROM arm64v8/nginx:alpine as ui
+FROM arm64v8/nginx:1.25-alpine as ui
 LABEL MAINTAINER="kubegems"
 WORKDIR /usr/src/app
 
