@@ -1,4 +1,4 @@
-FROM nginx:alpine as ui
+FROM nginx:1.27.3-alpine as ui
 LABEL MAINTAINER="kubegems"
 WORKDIR /usr/src/app
 
